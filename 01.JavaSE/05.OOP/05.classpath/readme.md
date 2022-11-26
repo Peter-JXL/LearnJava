@@ -14,6 +14,8 @@ example2是复习命令行里指定classpath
 
 example3是复习多个classpath的情况
 
+example4 是复习编译多个类的情况，以及指定class文件输出的路径
+
 ## 练习
 
 对于example1：
@@ -25,7 +27,7 @@ example3是复习多个classpath的情况
 
 对于example3：通过指定多个classpath来编译和运行Hello
 
-
+对于example4：用命令行编译多个类，并用-d指定class文件输出路径
 
 如果你能独立完成上述练习（不用倒回去看博客），那么说明你对classpath的知识点已经掌握了。下面会给出答案，仅供参考
 
@@ -79,6 +81,17 @@ Peter
 D:\Projects\LearnJava\01.JavaSE\05.OOP\05.classpath> javac -cp "./example3;./example3/lib" ./example3/Hello.java
 D:\Projects\LearnJava\01.JavaSE\05.OOP\05.classpath> java -cp "./example3;./example3/lib" Hello
 Peter
+```
+
+
+
+
+
+对于example4
+
+```
+D:\Projects\LearnJava\01.JavaSE\05.OOP\05.classpath> mkdir ./example4/bin
+D:\Projects\LearnJava\01.JavaSE\05.OOP\05.classpath> javac -d ./example4/bin ./example4/*.java
 ```
 
 
