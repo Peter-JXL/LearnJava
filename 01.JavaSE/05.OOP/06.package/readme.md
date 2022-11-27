@@ -11,7 +11,7 @@
 * example1：使用包来组织类。定义一个Person类属于emilia包，然后定义一个Hello包引入Person类并运行Person类的方法
 * example2：包作用域，定义一个Person类，里面定义两个方法，一个用默认修饰符，一个用private修饰符，定义Hello类分别引用两个方法尝试运行。
 * example3：使用`import *` 导入Peron类 和使用 `import static`导入System
-* example4 ：使用全类名的方式，使用java.util.Date类的方法
+* example4 ：不使用import语句，使用全类名的方式，使用java.util.Date类的方法
 * example5：使用String和Object定义对象
 * example6：使用javc -d指定编译后的文件存放位置，观察class文件是否会按包的层次结果来存放
 
