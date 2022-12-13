@@ -1,6 +1,6 @@
 // 演示包装类的构造方法
 
-public class HelloInteger01{
+public class WrapperClassDemo{
   public static void main(String[] args) {
     byte b = 1;
     Byte byte1 = new Byte(b);
@@ -16,11 +16,11 @@ public class HelloInteger01{
     Integer int2 = new Integer("112");
     System.out.println("Integer:"  + int1 + ' ' + int2);
 
-    Long long1 = new Long(111);
+    Long long1 = new Long(111L);
     Long long2 = new Long("112");
     System.out.println("Long:"  + long1 + ' ' + long2);
 
-    Float float1 = new Float(11.1);
+    Float float1 = new Float(11.1f);
     Float float2 = new Float("11.2");
     System.out.println("Float:"  + float1 + ' ' + float2);
 
