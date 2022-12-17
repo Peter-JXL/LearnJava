@@ -1,6 +1,13 @@
 public class DataTypeDouble {
   public static void main(String[] args) {
-    System.out.println("1f == 0.9999999f?:" + (1f == 0.9999999f)); //0后面7个9, false
-    System.out.println("1f == 0.9999999f?:" + (1f == 0.99999999f)); //0后面8个9, true
+    double d = 0.1;
+    double d2 = 0.2;
+    double d3 = d + d2;
+    System.out.println(d3);
+
+    float f = 0.3f;
+    float f2 = 0.1f;
+    float f3 = f - f2;
+    System.out.println(f3);
   }
 }
