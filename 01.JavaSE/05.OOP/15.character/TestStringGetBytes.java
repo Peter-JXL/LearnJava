@@ -18,7 +18,9 @@ public class TestStringGetBytes {
 
     byte[] b2 = "严".getBytes("utf-8");
     for (int i = 0; i < b2.length; i++) {
-      System.out.println(b2[i]);
+      System.out.print(b2[i]);
+      System.out.print(" ");
+      System.out.println(Integer.toBinaryString(b2[i]));
     }
 
     byte[] b3 = "赵".getBytes();
