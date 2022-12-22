@@ -13,5 +13,13 @@ public class TestDate {
 
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     System.out.println(sdf.format(date));
+
+    //返回毫秒数
+    long t = Date.parse("Mon 6 Jan 1997 13:3:00");
+    System.out.println(t);  //852526980000
+
+    //Date的构造方法，不推荐使用
+    Date date2 = new Date("Mon 6 Jan 1997 13:3:00");
+    System.out.println(date2);
   }
 }
