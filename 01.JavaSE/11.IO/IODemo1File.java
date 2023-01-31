@@ -10,6 +10,7 @@ public class IODemo1File {
 
     File f2 = new File("test.txt");
     System.out.println(f2);
+    System.out.println(f2.getName()); //test.txt
 
     // display OS's separator
     System.out.println(File.separator); // print "\" or "/"
@@ -17,8 +18,9 @@ public class IODemo1File {
 
     // show File's method about path
     File f3 = new File("..");
-    System.out.println(f3.getPath());
-    System.out.println(f3.getAbsoluteFile());
-    System.out.println(f3.getCanonicalPath());
+    System.out.println(f3.getPath());           //..
+    System.out.println(f3.getAbsoluteFile());   //D:\Projects\LearnJava\01.JavaSE\11.IO\..
+    System.out.println(f3.getCanonicalPath());  //D:\Projects\LearnJava\01.JavaSE
+    System.out.println(f3.getName()); //..
   }
 }

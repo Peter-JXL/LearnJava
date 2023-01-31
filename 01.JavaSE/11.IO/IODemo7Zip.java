@@ -10,6 +10,7 @@ public class IODemo7Zip {
       ZipInputStream zip = new ZipInputStream(file)) {
 
         ZipEntry entry = null;
+        
         while(null != ( entry = zip.getNextEntry())){
           if(!entry.isDirectory()){
             int n;
@@ -18,6 +19,8 @@ public class IODemo7Zip {
             }
           }
         }
+
+
     }
   }
 }
