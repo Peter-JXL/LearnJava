@@ -1,5 +1,6 @@
-# temp 临时文件夹
+# temp 临时文件夹和IDEA的文件夹
 temp
+.idea
 
 # Compiled class file
 *.class

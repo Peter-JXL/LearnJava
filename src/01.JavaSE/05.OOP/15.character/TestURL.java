@@ -1,6 +1,5 @@
 import java.net.URLDecoder;
 import java.net.URLEncoder;
-import java.nio.charset.StandardCharsets;
 
 public class TestURL {
   public static void main(String[] args) throws Exception{
